@@ -1,2 +1,2 @@
 # sarah-heckendorn
-A Personal Portfolio
+A Personal Portfolio to showcase skills acquired
