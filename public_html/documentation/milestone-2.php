@@ -18,7 +18,7 @@
 			is so that it eliminates unnecessary scrolling to get those links again. I'm not set in stone on this one, but this is my reasoning behind it. I want my site to be fast and easy to use</br>
 			for potential employers who don't have a lot of time on their hands when looking at personal websites.
 		</p>
-		<img src="Wireframemobile.png">
+		<img src="Wireframemobile2.png">
 		<img src="WireframeDesktop.png">
 	</body>
 </html>
