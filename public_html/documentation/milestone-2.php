@@ -5,6 +5,7 @@
 		<title>Milestone 2a</title>
 	</head>
 	<body>
+		<h1>Wireframing for both mobile and desktop design</h1>
 		<p>For the first section you see, it will give my name and a one line sentence of my job. There will then be an 'about me' section with a professional headshot</br>
 			and a little blurb about myself and my skills as a web developer. It will also include links to my linkedin, github, and twitter accounts for easy accessibility and save</br>
 		potential employers time to just tap them right away.</p>
