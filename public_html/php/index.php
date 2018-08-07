@@ -17,7 +17,7 @@
 		</di>
 <!--		/**about me and links**/-->
 		<div>
-			<div>
+			<div class="media">
 				<img src="http://absolute-respiratory.com/wp-content/uploads/2015/01/image-coming-soon.jpg">
 			</div>
 			<di>
