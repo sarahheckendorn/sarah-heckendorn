@@ -15,12 +15,12 @@
 		</div>
 	</section>
 <!--		/**about me and links**/-->
-	<section class="container">
-		<div>
-			<div class="media">
-				<img class="w-25" src="http://absolute-respiratory.com/wp-content/uploads/2015/01/image-coming-soon.jpg">
+	<section class="container-fluid">
+		<div class="row">
+			<div class="col-md-4">
+				<img class="image-fluid 15px" src="image/profileimage.jpg">
 			</div>
-			<div>
+			<div class="col-md-6">
 				<h2>About Me</h2>
 				<p>FILL HERE!</p>
 			</div>
@@ -33,49 +33,69 @@
 		</div>
 	</section>
 <!--		/**Languages section-->
-	<section class="container">
-		<div>
+	<section class="container-fluid">
+		<div class="row">
 			<h5>Languages</h5>
-			<ul>
-				<li>HTML</li>
-				<li>CSS</li>
-				<li>Bootstrap</li>
-				<li>Angular</li>
-				<li>JQuery</li>
-				<li>JavaScript</li>
-				<li>PHP</li>
-				<li>mySQL</li>
-			</ul>
+			<div class="col-md-4">
+				<ul>
+					<li>HTML</li>
+					<li>CSS</li>
+					<li>Bootstrap</li>
+					<li>Angular</li>
+				</ul>
+			</div>
+			<div class="col-md-6">
+				<ul>
+					<li>JQuery</li>
+					<li>JavaScript</li>
+					<li>PHP</li>
+					<li>mySQL</li>
+				</ul>
+			</div>
 		</div>
 	</section>
 <!--		/**Portfolio-->
-	<section class="container">
+	<section class="container-fluid px-4 py-4">
 		<div>
 			<h4>Portfolio</h4>
 		</div>
-		<div>
-			<p>Lorum Ipsum</p>
-			<img class="w-25" src="http://absolute-respiratory.com/wp-content/uploads/2015/01/image-coming-soon.jpg">
-		</div>
-		<div>
-			<p>Lorum Ipsum</p>
-			<img class="w-25" src="http://absolute-respiratory.com/wp-content/uploads/2015/01/image-coming-soon.jpg">
-		</div>
-		<div>
-			<p>Lorum Ipsum</p>
-			<img class="w-25" src="http://absolute-respiratory.com/wp-content/uploads/2015/01/image-coming-soon.jpg">
-		</div>
-		<div>
-			<p>Lorum Ipsum</p>
-			<img class="w-25" src="http://absolute-respiratory.com/wp-content/uploads/2015/01/image-coming-soon.jpg">
-		</div>
-		<div>
-			<p>Lorum Ipsum</p>
-			<img class="w-25" src="http://absolute-respiratory.com/wp-content/uploads/2015/01/image-coming-soon.jpg">
-		</div>
-		<div>
-			<p>Lorum Ipsum</p>
-			<img class="w-25" src="http://absolute-respiratory.com/wp-content/uploads/2015/01/image-coming-soon.jpg">
+		<div class="card-deck">
+			<div class="card">
+				<p class="card-title">Lorum Ipsum</p>
+				<div class="card-body">
+					<img class="card-img-bottom w-100" src="http://absolute-respiratory.com/wp-content/uploads/2015/01/image-coming-soon.jpg">
+				</div>
+			</div>
+			<div class="card">
+				<p class="card-title">Lorum Ipsum</p>
+				<div class="card-body">
+					<img class="card-img-bottom w-100" src="http://absolute-respiratory.com/wp-content/uploads/2015/01/image-coming-soon.jpg">
+				</div>
+			</div>
+			<div class="card">
+				<p class="card-title">Lorum Ipsum</p>
+				<div class="card-body">
+					<img class="card-img-bottom w-100" src="http://absolute-respiratory.com/wp-content/uploads/2015/01/image-coming-soon.jpg">
+				</div>
+			</div>
+			<div class="card">
+				<p class="card-title">Lorum Ipsum</p>
+				<div class="card-body">
+					<img class="card-img-bottom w-100" src="http://absolute-respiratory.com/wp-content/uploads/2015/01/image-coming-soon.jpg">
+				</div>
+			</div>
+			<div class="card">
+				<p class="card-title">Lorum Ipsum</p>
+				<div class="card-body">
+					<img class="card-img-bottom w-100" src="http://absolute-respiratory.com/wp-content/uploads/2015/01/image-coming-soon.jpg">
+				</div>
+			</div>
+			<div class="card">
+				<p class="card-title">Lorum Ipsum</p>
+				<div class="card-body">
+					<img class="card-img-bottom w-100" src="http://absolute-respiratory.com/wp-content/uploads/2015/01/image-coming-soon.jpg">
+				</div>
+			</div>
 		</div>
 	</section>
 <!--		/**Contact Me Section-->
