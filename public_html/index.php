@@ -18,7 +18,7 @@
 	<section class="container">
 		<div>
 			<div class="media">
-				<img src="http://absolute-respiratory.com/wp-content/uploads/2015/01/image-coming-soon.jpg">
+				<img class="w-25" src="http://absolute-respiratory.com/wp-content/uploads/2015/01/image-coming-soon.jpg">
 			</div>
 			<div>
 				<h2>About Me</h2>
@@ -55,27 +55,27 @@
 		</div>
 		<div>
 			<p>Lorum Ipsum</p>
-			<img src="http://absolute-respiratory.com/wp-content/uploads/2015/01/image-coming-soon.jpg">
+			<img class="w-25" src="http://absolute-respiratory.com/wp-content/uploads/2015/01/image-coming-soon.jpg">
 		</div>
 		<div>
 			<p>Lorum Ipsum</p>
-			<img src="http://absolute-respiratory.com/wp-content/uploads/2015/01/image-coming-soon.jpg">
+			<img class="w-25" src="http://absolute-respiratory.com/wp-content/uploads/2015/01/image-coming-soon.jpg">
 		</div>
 		<div>
 			<p>Lorum Ipsum</p>
-			<img src="http://absolute-respiratory.com/wp-content/uploads/2015/01/image-coming-soon.jpg">
+			<img class="w-25" src="http://absolute-respiratory.com/wp-content/uploads/2015/01/image-coming-soon.jpg">
 		</div>
 		<div>
 			<p>Lorum Ipsum</p>
-			<img src="http://absolute-respiratory.com/wp-content/uploads/2015/01/image-coming-soon.jpg">
+			<img class="w-25" src="http://absolute-respiratory.com/wp-content/uploads/2015/01/image-coming-soon.jpg">
 		</div>
 		<div>
 			<p>Lorum Ipsum</p>
-			<img src="http://absolute-respiratory.com/wp-content/uploads/2015/01/image-coming-soon.jpg">
+			<img class="w-25" src="http://absolute-respiratory.com/wp-content/uploads/2015/01/image-coming-soon.jpg">
 		</div>
 		<div>
 			<p>Lorum Ipsum</p>
-			<img src="http://absolute-respiratory.com/wp-content/uploads/2015/01/image-coming-soon.jpg">
+			<img class="w-25" src="http://absolute-respiratory.com/wp-content/uploads/2015/01/image-coming-soon.jpg">
 		</div>
 	</section>
 <!--		/**Contact Me Section-->
