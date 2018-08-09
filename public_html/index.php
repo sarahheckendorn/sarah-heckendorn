@@ -1,23 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
+	<head id="background-image">
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<link rel="stylesheet" href="stylesheets/StylesheetSH.css">
 	</head>
 <!--	/**header section-->
-	<section>
-		<div>
-			<img src="">
-		</div>
+	<section class="container">
 		<div>
 			<h1>Sarah Heckendorn</h1>
 			<h3>Professional Web Developer | Creative</h3>
 		</div>
 	</section>
 <!--		/**about me and links**/-->
-	<section>
+	<section class="container">
 		<div>
 			<div class="media">
 				<img src="http://absolute-respiratory.com/wp-content/uploads/2015/01/image-coming-soon.jpg">
@@ -35,7 +33,7 @@
 		</div>
 	</section>
 <!--		/**Languages section-->
-	<section>
+	<section class="container">
 		<div>
 			<h5>Languages</h5>
 			<ul>
@@ -51,7 +49,7 @@
 		</div>
 	</section>
 <!--		/**Portfolio-->
-	<section>
+	<section class="container">
 		<div>
 			<h4>Portfolio</h4>
 		</div>
@@ -81,7 +79,7 @@
 		</div>
 	</section>
 <!--		/**Contact Me Section-->
-	<section>
+	<section class="container">
 		<div>
 			<form>
 				<h3>Contact Me!</h3>
