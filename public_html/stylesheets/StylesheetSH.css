@@ -1,7 +1,18 @@
-
-background-image url()
-
+.background {
+	background: url("https://thumbs.dreamstime.com/b/adobe-wall-texture-ancient-material-construction-background-45466799.jpg") no-repeat scroll left center;
+	background-size: cover;
+}
+/*http://hddesktopwallpapers.in/wp-content/uploads/2015/09/rustic-pictures.jpg*/
 .profile {
 	width: 275px;
 	height: 400px;
+}
+
+.aboutme {
+	background: blanchedalmond;
+	opacity: 0.75;
+}
+
+.amtext {
+	color: cadetblue;
 }
