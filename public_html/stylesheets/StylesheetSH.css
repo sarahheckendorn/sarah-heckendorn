@@ -1,5 +1,6 @@
 .background {
-	background: url("https://thumbs.dreamstime.com/b/adobe-wall-texture-ancient-material-construction-background-45466799.jpg") no-repeat scroll left center;
+	/*background: url("https://thumbs.dreamstime.com/b/adobe-wall-texture-ancient-material-construction-background-45466799.jpg") no-repeat scroll left center;*/
+	background-image: url("C:\Users\Sarah\Desktop\boot camp\sarah-heckendorn\public_html\image\pink adobe.jpg");
 	background-size: cover;
 }
 /*http://hddesktopwallpapers.in/wp-content/uploads/2015/09/rustic-pictures.jpg*/
@@ -8,11 +9,11 @@
 	height: 400px;
 }
 
-.aboutme {
-	background: blanchedalmond;
-	opacity: 0.75;
-}
+/*.aboutme {*/
+	/*background: blanchedalmond;*/
+	/*opacity: 0.75;*/
+/*}*/
 
-.amtext {
-	color: cadetblue;
-}
+/*.amtext {*/
+	/*color: cadetblue;*/
+/*}*/

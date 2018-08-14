@@ -9,7 +9,7 @@
 	</head>
 	<body class="background">
 	<!--	/**header section-->
-		<section class="container aboutme text-align-center">
+		<section class="container aboutme d-block text-center">
 			<div class="amtext">
 				<h1>Sarah Heckendorn</h1>
 				<h3>Professional Web Developer | Creative</h3>
@@ -19,7 +19,7 @@
 		<section class="container-fluid">
 			<div class="row">
 				<div class="col-md-4">
-					<img class="image-fluid oval profile" src="image/profileimage.jpg">
+					<img class="image-fluid profile" src="image/profileimage.jpg">
 				</div>
 				<div class="col-md-6">
 					<h2>About Me</h2>
