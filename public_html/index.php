@@ -57,7 +57,7 @@
 			</tbody>
 		</table>
 	<!--		/**Portfolio-->
-		<section class="container-fluid px-4 py-4">
+		<section class="container-fluid portfolio px-4 py-4">
 			<div>
 				<h4>Portfolio</h4>
 			</div>
