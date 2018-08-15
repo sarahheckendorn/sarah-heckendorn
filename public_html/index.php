@@ -7,17 +7,18 @@
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 		<link rel="stylesheet" href="stylesheets/StylesheetSH.css">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 	</head>
 	<body class="background">
 	<!--	/**header section-->
-		<section class="container header d-block text-center px-5 py-5 mx-5 my-4">
-			<div class="headertext">
+		<section class="container header d-block text-center px-5 py-5 mx-auto my-4">
+			<div class="headertext font">
 				<h1>Sarah Heckendorn</h1>
-				<h3>Web Developer | Creative</h3>
+				<h3>Web Developer | Creative | </h3>
 			</div>
 		</section>
 	<!--		/**about me and links**/-->
-		<section class="aboutme container-fluid px-3 py-3">
+		<section class="aboutme container-fluid font px-3 py-3">
 			<div class="row">
 				<div class="col-md-2 px-2 mx-2">
 					<img class="image-fluid rounded-circle profile" src="image/profileimage.jpg">
@@ -35,7 +36,7 @@
 			</div>
 		</section>
 	<!--		/**Languages section-->
-		<table class="table container my-3">
+		<table class="table container font my-3">
 			<thead>
 				<tr>
 					<th>Languages</th>
@@ -46,7 +47,7 @@
 					<td>HTML</td>
 					<td>CSS</td>
 					<td>Bootstrap</td>
-					<td>AngularJS</td>
+					<td>Angular6</td>
 				</tr>
 				<tr>
 					<td>JQuery</td>
@@ -57,9 +58,9 @@
 			</tbody>
 		</table>
 	<!--		/**Portfolio-->
-		<section class="container-fluid portfolio px-4 py-4">
+		<section class="container-fluid portfolio font text-center pt-2 pb-4 my-5">
 			<div>
-				<h4>Portfolio</h4>
+				<h2 class="pb-3">Portfolio</h2>
 			</div>
 			<div class="card-deck">
 				<div class="card">
@@ -89,29 +90,30 @@
 			</div>
 		</section>
 	<!--		/**Contact Me Section-->
-		<section class="container">
-			<div>
-				<form>
-					<h3>Contact Me!</h3>
-					<fieldset>
-						<input placeholder="Your name" type="text" tabindex="1" required autofocus>
-					</fieldset>
-					<fieldset>
-						<input placeholder="Your Email Address" type="email" tabindex="2" required>
-					</fieldset>
-					<fieldset>
-						<input placeholder="Your Phone Number" type="tel" tabindex="3" required>
-					</fieldset>
-					<fieldset>
-						<textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
-					</fieldset>
-					<fieldset>
-						<button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
-					</fieldset>
-				</form>
-			</div>
+		<section class="container-fluid contact font py-4 m-auto">
+			<form class="container m-auto">
+				<div class="form-group">
+					<label for="nameControlInput">Name</label>
+					<input type="text" class="form-control" id="nameControlInput" placeholder="John Doe">
+				</div>
+				<div class="form-group">
+					<label for="emailControlInput">Email address</label>
+					<input type="email" class="form-control" id="emailControlInput" placeholder="name@example.com">
+				</div>
+				<div class="form-group">
+					<label for="numberControlInput">Phone Number</label>
+					<input type="number" class="form-control" id="numberControlInput" placeholder="555-555-5555">
+				</div>
+				<div class="form-group">
+					<label for="FormControlTextarea1">Example textarea</label>
+					<textarea class="form-control" id="FormControlTextarea1" rows="3"></textarea>
+				</div>
+				<div>
+					<button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+				</div>
+			</form>
 		</section>
-		<section>
+		<section class="hide-link font">
 			<div class="d-xl-none d-lg-none d-md-none">
 				<h2>Easy Links:</h2>
 				<a href="https://github.com/sarahheckendorn"><i class="fab fa-github px-2 py-4"></i></a>
