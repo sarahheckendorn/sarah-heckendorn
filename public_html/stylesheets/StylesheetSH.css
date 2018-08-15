@@ -1,15 +1,15 @@
 .background {
-	/*background: url("https://thumbs.dreamstime.com/b/adobe-wall-texture-ancient-material-construction-background-45466799.jpg") no-repeat scroll left center;*/
+	background: url("https://www.pmkelly.com/wp/wp-content/uploads/2013/12/Cold-Storage.jpg") no-repeat scroll left center;
 	background-color: #EBECED;
 	background-size: cover;
 }
 /*http://hddesktopwallpapers.in/wp-content/uploads/2015/09/rustic-pictures.jpg*/
 .header {
-	background-color: #CBC5C1;
+	background-color: rgba(203, 197, 193, 0.9);
 	color: #3E3E3B;
 }
 .aboutme {
-	background-color: rgba(76, 88, 111, 0.6);
+	background-color: rgba(76, 88, 111, 0.8);
 	color: #EBECED;
 }
 
@@ -31,3 +31,6 @@
 	color: #A2AAB0;
 }
 
+.portfolio {
+	background-color: rgba(62, 62, 59, 0.8);
+}
