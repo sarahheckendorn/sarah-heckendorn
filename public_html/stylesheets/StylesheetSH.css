@@ -15,7 +15,7 @@
 
 .aboutme img {
 	width: 205px;
-	height: 300px;
+	height: 280px;
 	opacity: 1;
 }
 /*.amtext {*/
@@ -31,6 +31,11 @@
 	color: #A2AAB0;
 }
 
+.table {
+	background-color: rgba(203, 197, 193, 0.9);
+}
+
 .portfolio {
 	background-color: rgba(62, 62, 59, 0.8);
+	color: #EBECED;
 }
