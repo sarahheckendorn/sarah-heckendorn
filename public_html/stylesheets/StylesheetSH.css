@@ -3,7 +3,7 @@
 	background-color: #EBECED;
 	background-size: cover;
 }
-/*http://hddesktopwallpapers.in/wp-content/uploads/2015/09/rustic-pictures.jpg*/
+
 .header {
 	background-color: rgba(203, 197, 193, 0.9);
 	color: #3E3E3B;
@@ -18,9 +18,6 @@
 	height: 280px;
 	opacity: 1;
 }
-/*.amtext {*/
-	/*color: cadetblue;*/
-/*}*/
 
 .social {
 
@@ -37,5 +34,14 @@
 
 .portfolio {
 	background-color: rgba(62, 62, 59, 0.8);
+	color: #EBECED;
+}
+
+.font {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.contact {
+	background-color: rgba(76, 88, 111, 0.9);
 	color: #EBECED;
 }
