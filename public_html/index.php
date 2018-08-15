@@ -10,52 +10,52 @@
 	</head>
 	<body class="background">
 	<!--	/**header section-->
-		<section class="container aboutme d-block text-center px-3 py-3 mx-5 py-3">
-			<div class="amtext">
+		<section class="container header d-block text-center px-5 py-5 mx-5 my-4">
+			<div class="headertext">
 				<h1>Sarah Heckendorn</h1>
-				<h3>Professional Web Developer | Creative</h3>
+				<h3>Web Developer | Creative</h3>
 			</div>
 		</section>
 	<!--		/**about me and links**/-->
-		<section class="container-fluid px-3 py-3">
+		<section class="aboutme container-fluid px-3 py-3">
 			<div class="row">
 				<div class="col-md-2 px-2 mx-2">
 					<img class="image-fluid rounded-circle profile" src="image/profileimage.jpg">
 				</div>
-				<div class="col-md-6">
+				<div class="col-md-6 amback py-5">
 					<h2>About Me</h2>
 					<p>Hey! My name is Sarah. I've graduated CNM Ingenuity's Deep Dive Coding Bootcamp and have learned more about coding than I thought possible in ten short weeks! I've been passionate about coding for the past two years, but was able to recently incorporate it more when I learned about Deep Dive. I thoroughly enjoy the whole coding process- backend to frontend! The problem solving, the creativity, all of it! I'm excited to jump into the tech world full time and launch my career in fullstack web development. Please have a look around, check out the links, and feel free to contact me!</p>
 				</div>
-				<div class="col-md-3 social">
+				<div class="col-md-3 social text-center py-5">
 					<h2>Check Out My:</h2>
-					<a href="https://github.com/sarahheckendorn"><i class="fab fa-github"></i></a>
-					<a href="https://www.linkedin.com/in/sarah-heckendorn-0721/"><i class="fab fa-linkedin"></i></a>
-					<a href="#"><i class="fab fa-twitter-square text-size"></i></a>
+					<a href="https://github.com/sarahheckendorn"><i class="fab fa-github px-2 py-4"></i></a>
+					<a href="https://www.linkedin.com/in/sarah-heckendorn-0721/"><i class="fab fa-linkedin px-2"></i></a>
+					<a href="#"><i class="fab fa-twitter-square px-2"></i></a>
 				</div>
 			</div>
 		</section>
 	<!--		/**Languages section-->
-		<section class="container-fluid">
-			<div class="row">
-				<h5>Languages</h5>
-				<div class="col-md-4">
-					<ul>
-						<li>HTML</li>
-						<li>CSS</li>
-						<li>Bootstrap</li>
-						<li>Angular</li>
-					</ul>
-				</div>
-				<div class="col-md-6">
-					<ul>
-						<li>JQuery</li>
-						<li>JavaScript</li>
-						<li>PHP</li>
-						<li>mySQL</li>
-					</ul>
-				</div>
-			</div>
-		</section>
+		<table class="table container my-3">
+			<thead>
+				<tr>
+					<th>Languages</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>HTML</td>
+					<td>CSS</td>
+					<td>Bootstrap</td>
+					<td>AngularJS</td>
+				</tr>
+				<tr>
+					<td>JQuery</td>
+					<td>JavaScript</td>
+					<td>PHP</td>
+					<td>mySQL</td>
+				</tr>
+			</tbody>
+		</table>
 	<!--		/**Portfolio-->
 		<section class="container-fluid px-4 py-4">
 			<div>
