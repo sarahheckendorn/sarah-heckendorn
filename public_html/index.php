@@ -6,16 +6,15 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-		<link rel="stylesheet" href="stylesheets/StylesheetSH.css">
-		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+		<link rel="stylesheet" href="stylesheets/stylesheet.css">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat|Dancing+Script|Raleway" rel="stylesheet">
 	</head>
 	<body class="background">
 	<!--	/**header section-->
 		<section class="container header d-block text-center px-5 py-5 mx-auto my-4">
 			<div class="headertext font">
 				<h1>Sarah Heckendorn</h1>
-				<h3>Web Developer | Creative | </h3>
+				<h3>Web Developer | Creative</h3>
 			</div>
 		</section>
 	<!--		/**about me and links**/-->
@@ -25,7 +24,7 @@
 					<img class="image-fluid rounded-circle profile" src="image/profileimage.jpg">
 				</div>
 				<div class="col-md-6 amback py-5">
-					<h2>About Me</h2>
+					<h2 class="cursive">About Me</h2>
 					<p>Hey! My name is Sarah. I've graduated CNM Ingenuity's Deep Dive Coding Bootcamp and have learned more about coding than I thought possible in ten short weeks! I've been passionate about coding for the past two years, but was able to recently incorporate it more when I learned about Deep Dive. I thoroughly enjoy the whole coding process- backend to frontend! The problem solving, the creativity, all of it! I'm excited to jump into the tech world full time and launch my career in fullstack web development. Please have a look around, check out the links, and feel free to contact me!</p>
 				</div>
 				<div class="col-md-3 social text-center py-5">
@@ -37,10 +36,10 @@
 			</div>
 		</section>
 	<!--		/**Languages section-->
-		<table class="table container font my-3">
+		<table class="table container font my-3 text-center">
 			<thead>
 				<tr>
-					<th>Languages</th>
+					<td>Languages</td>
 				</tr>
 			</thead>
 			<tbody>

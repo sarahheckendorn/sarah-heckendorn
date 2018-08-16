@@ -38,8 +38,8 @@
 	font-family: 'Montserrat', sans-serif;
 }
 
-.font h1 h2 h3 {
-	font-family: 'Dancing Script', sans-serif;
+.font h1, h2, h3 {
+	font-family: 'Dancing Script', cursive;
 }
 
 .contact {
