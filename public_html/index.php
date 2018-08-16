@@ -21,7 +21,7 @@
 		<section class="aboutme container-fluid font px-3 py-3">
 			<div class="row">
 				<div class="col-md-2 px-2 mx-2">
-					<img class="image-fluid rounded-circle profile" src="image/profileimage.jpg">
+					<img class="image rounded-circle profile" src="image/profileimage%20-%20Copy.jpg" alt="profile picture">
 				</div>
 				<div class="col-md-6 amback py-5">
 					<h2 class="cursive">About Me</h2>
@@ -29,9 +29,9 @@
 				</div>
 				<div class="col-md-3 social text-center py-5">
 					<h2>Check Out My:</h2>
-					<a href="https://github.com/sarahheckendorn"><i class="fab fa-github px-2 py-4"></i></a>
-					<a href="https://www.linkedin.com/in/sarah-heckendorn-0721/"><i class="fab fa-linkedin px-2"></i></a>
-					<a href="https://twitter.com/HeckendornSarah"><i class="fab fa-twitter-square px-2"></i></a>
+					<a class="link" href="https://github.com/sarahheckendorn">Github<i class="fab fa-github"></i></a>
+					<a class="link" href="https://www.linkedin.com/in/sarah-heckendorn-0721/">LinkedIn<i class="fab fa-linkedin px-2"></i></a>
+					<a class="link" href="https://twitter.com/HeckendornSarah">Twitter<i class="fab fa-twitter-square px-2"></i></a>
 				</div>
 			</div>
 		</section>
@@ -66,25 +66,25 @@
 				<div class="card">
 					<p class="card-title">Lorum Ipsum</p>
 					<div class="card-body">
-						<img class="card-img-bottom w-100" src="http://absolute-respiratory.com/wp-content/uploads/2015/01/image-coming-soon.jpg">
+						<img class="card-img-bottom w-100" src="http://absolute-respiratory.com/wp-content/uploads/2015/01/image-coming-soon.jpg" alt="placeholder image">
 					</div>
 				</div>
 				<div class="card">
 					<p class="card-title">Lorum Ipsum</p>
 					<div class="card-body">
-						<img class="card-img-bottom w-100" src="http://absolute-respiratory.com/wp-content/uploads/2015/01/image-coming-soon.jpg">
+						<img class="card-img-bottom w-100" src="http://absolute-respiratory.com/wp-content/uploads/2015/01/image-coming-soon.jpg" alt="placeholder image">
 					</div>
 				</div>
 				<div class="card">
 					<p class="card-title">Lorum Ipsum</p>
 					<div class="card-body">
-						<img class="card-img-bottom w-100" src="http://absolute-respiratory.com/wp-content/uploads/2015/01/image-coming-soon.jpg">
+						<img class="card-img-bottom w-100" src="http://absolute-respiratory.com/wp-content/uploads/2015/01/image-coming-soon.jpg" alt="placeholder image">
 					</div>
 				</div>
 				<div class="card">
 					<p class="card-title">Lorum Ipsum</p>
 					<div class="card-body">
-						<img class="card-img-bottom w-100" src="http://absolute-respiratory.com/wp-content/uploads/2015/01/image-coming-soon.jpg">
+						<img class="card-img-bottom w-100" src="http://absolute-respiratory.com/wp-content/uploads/2015/01/image-coming-soon.jpg" alt="placeholder image">
 					</div>
 				</div>
 			</div>
