@@ -19,9 +19,6 @@
 	opacity: 1;
 }
 
-.social {
-
-}
 
 .social a {
 	font-size: 3.5em;
@@ -41,6 +38,10 @@
 	font-family: 'Montserrat', sans-serif;
 }
 
+.font h1 h2 h3 {
+	font-family: 'Dancing Script', sans-serif;
+}
+
 .contact {
 	background-color: rgb(76, 88, 111);
 	color: #EBECED;
@@ -49,4 +50,9 @@
 .hide-link {
 	background-color: #3E3E3B;
 	color: #EBECED;
+}
+
+.hide-link a {
+	font-size: 4em;
+	color: #A2AAB0;
 }

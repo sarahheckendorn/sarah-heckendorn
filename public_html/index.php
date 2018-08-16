@@ -8,6 +8,7 @@
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 		<link rel="stylesheet" href="stylesheets/StylesheetSH.css">
 		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 	</head>
 	<body class="background">
 	<!--	/**header section-->
@@ -114,7 +115,7 @@
 			</form>
 		</section>
 		<section class="container-fluid m-auto hide-link font">
-			<div class="d-xl-none d-lg-none d-md-none">
+			<div class="d-xl-none d-lg-none d-md-none text-center">
 				<h2>Easy Links:</h2>
 				<a href="https://github.com/sarahheckendorn"><i class="fab fa-github px-2 py-4"></i></a>
 				<a href="https://www.linkedin.com/in/sarah-heckendorn-0721/"><i class="fab fa-linkedin px-2"></i></a>
