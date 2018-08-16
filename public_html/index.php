@@ -31,7 +31,7 @@
 					<h2>Check Out My:</h2>
 					<a href="https://github.com/sarahheckendorn"><i class="fab fa-github px-2 py-4"></i></a>
 					<a href="https://www.linkedin.com/in/sarah-heckendorn-0721/"><i class="fab fa-linkedin px-2"></i></a>
-					<a href="#"><i class="fab fa-twitter-square px-2"></i></a>
+					<a href="https://twitter.com/HeckendornSarah"><i class="fab fa-twitter-square px-2"></i></a>
 				</div>
 			</div>
 		</section>
@@ -113,12 +113,12 @@
 				</div>
 			</form>
 		</section>
-		<section class="hide-link font">
+		<section class="container-fluid m-auto hide-link font">
 			<div class="d-xl-none d-lg-none d-md-none">
 				<h2>Easy Links:</h2>
 				<a href="https://github.com/sarahheckendorn"><i class="fab fa-github px-2 py-4"></i></a>
 				<a href="https://www.linkedin.com/in/sarah-heckendorn-0721/"><i class="fab fa-linkedin px-2"></i></a>
-				<a href="#"><i class="fab fa-twitter-square px-2"></i></a>
+				<a href="https://twitter.com/HeckendornSarah"><i class="fab fa-twitter-square px-2"></i></a>
 			</div>
 		</section>
 	</body>
