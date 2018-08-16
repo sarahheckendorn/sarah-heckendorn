@@ -23,11 +23,11 @@
 				<div class="col-md-2 px-2 mx-2">
 					<img class="image rounded-circle profile" src="image/profileimage%20-%20Copy.jpg" alt="profile picture">
 				</div>
-				<div class="col-md-6 amback py-5">
+				<div class="col-md-4 amback py-5">
 					<h2 class="cursive">About Me</h2>
 					<p>Hey! My name is Sarah. I've graduated CNM Ingenuity's Deep Dive Coding Bootcamp and have learned more about coding than I thought possible in ten short weeks! I've been passionate about coding for the past two years, but was able to recently incorporate it more when I learned about Deep Dive. I thoroughly enjoy the whole coding process- backend to frontend! The problem solving, the creativity, all of it! I'm excited to jump into the tech world full time and launch my career in fullstack web development. Please have a look around, check out the links, and feel free to contact me!</p>
 				</div>
-				<div class="col-md-3 social text-center py-5">
+				<div class="col-md-3 offset-1 social text-center py-5">
 					<h2>Check Out My:</h2>
 					<a class="link" href="https://github.com/sarahheckendorn">Github<i class="fab fa-github"></i></a>
 					<a class="link" href="https://www.linkedin.com/in/sarah-heckendorn-0721/">LinkedIn<i class="fab fa-linkedin px-2"></i></a>
