@@ -15,6 +15,7 @@
 			<div class="headertext font">
 				<h1>Sarah Heckendorn</h1>
 				<h3>Web Developer | Creative</h3>
+				<blockquote>"You only have one life to live... so live it to the fullest."</blockquote>
 			</div>
 		</section>
 	<!--		/**about me and links**/-->
