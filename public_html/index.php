@@ -11,7 +11,7 @@
 	</head>
 	<body class="background">
 	<!--	/**header section-->
-		<section class="container header d-block text-center px-5 py-5 mx-auto my-4">
+		<section id="header" class="container header d-block text-center px-5 py-5 mx-auto my-4">
 			<div class="headertext font">
 				<h1>Sarah Heckendorn</h1>
 				<h3>Web Developer | Creative</h3>
@@ -19,16 +19,16 @@
 			</div>
 		</section>
 	<!--		/**about me and links**/-->
-		<section class="aboutme container-fluid font px-3 py-3">
+		<section id="aboutme" class="container-fluid font px-3 py-3">
 			<div class="row">
 				<div class="col-md-2 px-2 mx-2">
-					<img class="image rounded-circle profile" src="image/profileimage%20-%20Copy.jpg" alt="profile picture">
+					<img id="profile" class="image rounded-circle" src="image/profileimage%20-%20Copy.jpg" alt="profile picture">
 				</div>
 				<div class="col-md-4 amback py-5">
 					<h2 class="cursive">About Me</h2>
 					<p>Hey! My name is Sarah. I've graduated CNM Ingenuity's Deep Dive Coding Bootcamp and have learned more about coding than I thought possible in ten short weeks! I've been passionate about coding for the past two years, but was able to recently incorporate it more when I learned about Deep Dive. I thoroughly enjoy the whole coding process- backend to frontend! The problem solving, the creativity, all of it! I'm excited to jump into the tech world full time and launch my career in fullstack web development. Please have a look around, check out the links, and feel free to contact me!</p>
 				</div>
-				<div class="col-md-3 offset-1 social text-center py-5">
+				<div id="social" class="col-md-3 offset-1 text-center py-5">
 					<h2>Check Out My:</h2>
 					<a class="link" href="https://github.com/sarahheckendorn">Github<i class="fab fa-github"></i></a>
 					<a class="link" href="https://www.linkedin.com/in/sarah-heckendorn-0721/">LinkedIn<i class="fab fa-linkedin px-2"></i></a>
@@ -59,7 +59,7 @@
 			</tbody>
 		</table>
 	<!--		/**Portfolio-->
-		<section class="container-fluid portfolio font text-center pt-2 pb-4 my-5">
+		<section id="portfolio" class="container-fluid font text-center pt-2 pb-4 my-5">
 			<div>
 				<h2 class="pb-3">Portfolio</h2>
 			</div>
@@ -91,7 +91,7 @@
 			</div>
 		</section>
 	<!--		/**Contact Me Section-->
-		<section class="container-fluid contact font py-4 m-auto">
+		<section id="contact" class="container-fluid font py-4 m-auto">
 			<form class="container m-auto">
 				<div class="form-group">
 					<label for="nameControlInput">Name</label>
@@ -114,12 +114,12 @@
 				</div>
 			</form>
 		</section>
-		<section class="container-fluid m-auto hide-link font">
+		<section id="hide-link" class="container-fluid m-auto font">
 			<div class="d-xl-none d-lg-none d-md-none text-center">
 				<h2>Easy Links:</h2>
-				<a href="https://github.com/sarahheckendorn"><i class="fab fa-github px-2 py-4"></i></a>
-				<a href="https://www.linkedin.com/in/sarah-heckendorn-0721/"><i class="fab fa-linkedin px-2"></i></a>
-				<a href="https://twitter.com/HeckendornSarah"><i class="fab fa-twitter-square px-2"></i></a>
+				<a href="https://github.com/sarahheckendorn"><i id="tiny" class="fab fa-github px-2 py-4"></i></a>
+				<a href="https://www.linkedin.com/in/sarah-heckendorn-0721/"><i id="tiny" class="fab fa-linkedin px-2"></i></a>
+				<a href="https://twitter.com/HeckendornSarah"><i id="tiny" class="fab fa-twitter-square px-2"></i></a>
 			</div>
 		</section>
 	</body>
