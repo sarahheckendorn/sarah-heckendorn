@@ -19,20 +19,20 @@
 			</div>
 		</section>
 	<!--		/**about me and links**/-->
-		<section id="aboutme" class="container-fluid font px-3 py-3">
+		<section id="aboutme" class="container font px-3 py-3">
 			<div class="row">
-				<div class="col-md-2 px-2 mx-2">
+				<div class="col py-3">
 					<img id="profile" class="image rounded-circle" src="image/profileimage%20-%20Copy.jpg" alt="profile picture">
-				</div>
-				<div class="col-md-4 amback py-5">
 					<h2 class="cursive">About Me</h2>
 					<p>Hey! My name is Sarah. I've graduated CNM Ingenuity's Deep Dive Coding Bootcamp and have learned more about coding than I thought possible in ten short weeks! I've been passionate about coding for the past two years, but was able to recently incorporate it more when I learned about Deep Dive. I thoroughly enjoy the whole coding process- backend to frontend! The problem solving, the creativity, all of it! I'm excited to jump into the tech world full time and launch my career in fullstack web development. Please have a look around, check out the links, and feel free to contact me!</p>
 				</div>
-				<div id="social" class="col-md-3 offset-1 text-center py-5">
+				<div id="social" class="col offset-1 text-center py-5">
 					<h2>Check Out My:</h2>
-					<a class="link" href="https://github.com/sarahheckendorn">Github<i class="fab fa-github"></i></a>
-					<a class="link" href="https://www.linkedin.com/in/sarah-heckendorn-0721/">LinkedIn<i class="fab fa-linkedin px-2"></i></a>
-					<a class="link" href="https://twitter.com/HeckendornSarah">Twitter<i class="fab fa-twitter-square px-2"></i></a>
+					<div class="d-flex align-items-center">
+					<a class="link" href="https://github.com/sarahheckendorn"><i class="fab fa-github px-2 py-2"></i></a>
+					<a class="link" href="https://www.linkedin.com/in/sarah-heckendorn-0721/"><i class="fab fa-linkedin px-2"></i></a>
+					<a class="link" href="https://twitter.com/HeckendornSarah"><i class="fab fa-twitter-square px-2"></i></a>
+					</div>
 				</div>
 			</div>
 		</section>
