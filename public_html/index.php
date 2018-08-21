@@ -8,6 +8,8 @@
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 		<link rel="stylesheet" href="stylesheets/stylesheet.css">
 		<link href="https://fonts.googleapis.com/css?family=Montserrat|Dancing+Script|Raleway" rel="stylesheet">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 	</head>
 	<body class="background">
 	<!--	/**header section-->
@@ -59,37 +61,46 @@
 			</tbody>
 		</table>
 	<!--		/**Portfolio-->
-		<section id="portfolio" class="container-fluid font text-center pt-2 pb-4 my-5">
-			<div>
-				<h2 class="pb-3">Portfolio</h2>
+		<div class="container">
+			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+					<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+					<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+				</ol>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img class="d-block w-100" src="image/adobe.jpg?auto=yes&bg=777&fg=555" alt="First slide">
+						<div class="carousel-caption d-none d-md-block">
+							<h5>Lorum Ipsum</h5>
+							<p>Description of slide and what work it was. Keep it brief but informative</p>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<img class="d-block w-100" src="image/pink%20adobe.jpg?auto=yes&bg=666&fg=444" alt="Second slide">
+						<div class="carousel-caption d-none d-md-block">
+							<h5>Lorum Ipsum</h5>
+							<p>Description of slide and what work it was. Keep it brief but informative</p>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<img class="d-block w-100" src="image/rustic-pictures.jpg?auto=yes&bg=555&fg=333" alt="Third slide">
+						<div class="carousel-caption d-none d-md-block">
+							<h5>Lorum Ipsum</h5>
+							<p>Description of slide and what work it was. Keep it brief but informative</p>
+						</div>
+					</div>
+				</div>
+				<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
 			</div>
-			<div class="card-deck">
-				<div class="card">
-					<p class="card-title">Lorum Ipsum</p>
-					<div class="card-body">
-						<img class="card-img-bottom w-100" src="http://absolute-respiratory.com/wp-content/uploads/2015/01/image-coming-soon.jpg" alt="placeholder image">
-					</div>
-				</div>
-				<div class="card">
-					<p class="card-title">Lorum Ipsum</p>
-					<div class="card-body">
-						<img class="card-img-bottom w-100" src="http://absolute-respiratory.com/wp-content/uploads/2015/01/image-coming-soon.jpg" alt="placeholder image">
-					</div>
-				</div>
-				<div class="card">
-					<p class="card-title">Lorum Ipsum</p>
-					<div class="card-body">
-						<img class="card-img-bottom w-100" src="http://absolute-respiratory.com/wp-content/uploads/2015/01/image-coming-soon.jpg" alt="placeholder image">
-					</div>
-				</div>
-				<div class="card">
-					<p class="card-title">Lorum Ipsum</p>
-					<div class="card-body">
-						<img class="card-img-bottom w-100" src="http://absolute-respiratory.com/wp-content/uploads/2015/01/image-coming-soon.jpg" alt="placeholder image">
-					</div>
-				</div>
-			</div>
-		</section>
+		</div>
 	<!--		/**Contact Me Section-->
 		<section id="contact" class="container-fluid font py-4 m-auto">
 			<form id="form" class="container m-auto">

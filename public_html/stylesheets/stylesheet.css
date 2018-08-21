@@ -34,11 +34,18 @@
 	background-color: rgba(203, 197, 193, 0.9);
 }
 
-#portfolio {
-	background-color: rgba(62, 62, 59, 0.8);
-	color: #EBECED;
+/*#portfolio {*/
+	/*background-color: rgba(62, 62, 59, 0.8);*/
+	/*color: #EBECED;*/
+/*}*/
+.carousel-inner img {
+	width: 600px;
+	height: 400px;
 }
 
+.carousel-control-prev-icon, .carousel-control-next-icon {
+	background-color: black;
+}
 .font {
 	font-family: 'Montserrat', sans-serif;
 }
@@ -50,6 +57,10 @@
 #contact {
 	background-color: rgb(76, 88, 111);
 	color: #EBECED;
+	width: 100%;
+}
+
+#form {
 	width: 50%;
 }
 
