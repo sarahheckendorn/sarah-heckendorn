@@ -4,24 +4,25 @@
 	background-size: cover;
 }
 
-.header {
+#header {
 	background-color: rgba(203, 197, 193, 0.9);
 	color: #3E3E3B;
 }
 
-.aboutme {
+#aboutme {
 	background-color: rgba(76, 88, 111, 0.8);
 	color: #EBECED;
 }
 
-.aboutme img {
+#profile {
 	width: 190px;
 	height: 280px;
 	opacity: 1;
+	float: left;
 }
 
-.social a {
-	font-size: 1.5em;
+#social a {
+	font-size: 2em;
 	color: #A2AAB0;
 }
 
@@ -33,7 +34,7 @@
 	background-color: rgba(203, 197, 193, 0.9);
 }
 
-.portfolio {
+#portfolio {
 	background-color: rgba(62, 62, 59, 0.8);
 	color: #EBECED;
 }
@@ -46,21 +47,18 @@
 	font-family: 'Dancing Script', cursive;
 }
 
-.contact {
+#contact {
 	background-color: rgb(76, 88, 111);
 	color: #EBECED;
 }
 
-.hide-link {
+#hide-link {
 	background-color: #3E3E3B;
 	color: #EBECED;
 }
 
-.hide-link a {
-	font-size: 4em;
+#tiny {
+	font-size: 2.5em;
 	color: #A2AAB0;
 }
 
-#tiny {
-
-}
