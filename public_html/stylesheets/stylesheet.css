@@ -10,8 +10,8 @@
 }
 
 #aboutme {
-	background-color: rgba(76, 88, 111, 0.8);
-	color: #EBECED;
+	background-color: rgba(162, 170, 176, 0.8);
+	color: #3E3E3B;
 }
 
 #profile {
@@ -21,9 +21,14 @@
 	float: left;
 }
 
+#social {
+	background-color: rgba(162, 170, 176, 0.8);
+	color: #3E3E3B;
+}
+
 #social a {
 	font-size: 2em;
-	color: #A2AAB0;
+	color: #3E3E3B;
 }
 
 .fab {
@@ -34,10 +39,6 @@
 	background-color: rgba(203, 197, 193, 0.9);
 }
 
-/*#portfolio {*/
-	/*background-color: rgba(62, 62, 59, 0.8);*/
-	/*color: #EBECED;*/
-/*}*/
 .carousel-inner img {
 	width: 600px;
 	height: 400px;
