@@ -41,6 +41,32 @@ try {
 	$recipients = $MAIL_RECIPIENTS;
 	$swiftMessage->setTo($recipients);
 
-	//attach the subject line to the message
-	$swiftMessage->setSubject($subject);
+	/**
+	 * attach the actual message to the message
+	 */
+
+	$swiftMessage->setBody($message, "text/html");
+	$swiftMessage->addPart(html_entity_decode($message), "text/plain");
+
+	/**
+	 * Send the email via SMPT.
+	 *
+	 * @see http://swiftmailer.org/docs/sending.html Sending Messages - Documentation - SwitftMailer
+	 */
+	$smtp = new Swift_SmtpTransport("localhost", 25);
+	$mailer = new Swift_Mailer($smtp);
+	$numSent = $mailer->send($swiftMessage,$failedRecipients);
+
+	/**
+	 * the send method returns the number of recipients that accepted the email.
+	 * if the number attempted !== number accepted it's an Exception
+	 */
+	if($numSent !== count($recipients)) {
+		throw(new RuntimeException("unable to send email"));
+	}
+
+	//report a successful send
+	echo "<div class=\"alert alert-success\" role=\"alert\"><Email successfully sent.</div>";
+} catch(Exception $exception) {
+	echo "<div class=\"alert alert-danger\" role=\"alert\"><strong>Oh snap!</strong> Unable to send email: " . $exception->getMessage() . "</div>";
 }
