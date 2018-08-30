@@ -5,7 +5,7 @@
  * This file handles secure mail transport using the Swiftmailer library with Google reCAPTCHA integration
  *
  * @author Rochelle Lewis <rlewis37@cnm.edu>
- */
+ **/
 
 // require mail-config.php
 require_once (dirname(__DIR__, 2) . "/vendor/autoload.php");
@@ -25,7 +25,7 @@ try {
 
 	/**
 	 *Sanitize the inputs from the form: name, email, subject, and message. Using Jquery so implenting $_POST superglobal
-	 */
+	 **/
 	$name = filter_input(INPUT_POST, "name", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
 	$email = filter_input(INPUT_POST, "email", FILTER_SANITIZE_EMAIL);
 	$phone = filter_input(INPUT_POST, "phone", FILTER_SANITIZE_NUMBER_INT);
@@ -37,13 +37,13 @@ try {
 	/**
 	 * Attach the recipients to the message
 	 *$MAIL_RECIPIENTS is set in mail-config.php
-	 */
+	 **/
 	$recipients = $MAIL_RECIPIENTS;
 	$swiftMessage->setTo($recipients);
 
 	/**
 	 * attach the actual message to the message
-	 */
+	 **/
 
 	$swiftMessage->setBody($message, "text/html");
 	$swiftMessage->addPart(html_entity_decode($message), "text/plain");
@@ -52,7 +52,7 @@ try {
 	 * Send the email via SMPT.
 	 *
 	 * @see http://swiftmailer.org/docs/sending.html Sending Messages - Documentation - SwitftMailer
-	 */
+	 **/
 	$smtp = new Swift_SmtpTransport("localhost", 25);
 	$mailer = new Swift_Mailer($smtp);
 	$numSent = $mailer->send($swiftMessage,$failedRecipients);
@@ -60,7 +60,7 @@ try {
 	/**
 	 * the send method returns the number of recipients that accepted the email.
 	 * if the number attempted !== number accepted it's an Exception
-	 */
+	 **/
 	if($numSent !== count($recipients)) {
 		throw(new RuntimeException("unable to send email"));
 	}

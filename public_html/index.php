@@ -14,7 +14,7 @@
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
 		<script src='https://www.google.com/recaptcha/api.js'></script>
-		<script src="js/validator.php"></script>
+		<script src="js/validator.js"></script>
 	</head>
 	<body class="background">
 	<!--	/**header section-->
