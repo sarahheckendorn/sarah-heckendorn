@@ -1,3 +1,4 @@
 .DS_Story
 /.idea
 /vendor
+**/php/mail-config.php

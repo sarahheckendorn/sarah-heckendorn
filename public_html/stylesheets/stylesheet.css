@@ -12,6 +12,10 @@
 #aboutme {
 	background-color: rgba(162, 170, 176, 0.8);
 	color: #3E3E3B;
+	float: left;
+	max-width: 47%;
+	margin-left: 5em;
+	margin-bottom: 2em;
 }
 
 #profile {
@@ -24,6 +28,8 @@
 #social {
 	background-color: rgba(162, 170, 176, 0.8);
 	color: #3E3E3B;
+	float: right;
+	max-width: 35%;
 }
 
 #social a {
@@ -42,10 +48,12 @@
 .carousel-inner img {
 	width: 600px;
 	height: 400px;
+	margin-top: 2em;
 }
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
 	background-color: black;
+	margin-top: 2em;
 }
 .font {
 	font-family: 'Montserrat', sans-serif;
@@ -59,6 +67,7 @@
 	background-color: rgb(76, 88, 111);
 	color: #EBECED;
 	width: 100%;
+	margin-top: 2em;
 }
 
 #form {
