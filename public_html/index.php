@@ -13,6 +13,7 @@
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
+		<script src='https://www.google.com/recaptcha/api.js'></script>
 	</head>
 	<body class="background">
 	<!--	/**header section-->
@@ -128,6 +129,7 @@
 					<textarea class="form-control" id="FormControlTextarea1" rows="3"></textarea>
 				</div>
 				<div>
+					<div class="g-recaptcha" data-sitekey="6LcIZG0UAAAAANrDHKCeUg7zNRqnzgQxAEnk6TSd"></div>
 					<button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
 				</div>
 			</form>
