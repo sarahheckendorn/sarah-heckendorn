@@ -134,6 +134,12 @@
 					<button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
 				</div>
 			</form>
+			<!--empty area for form error/success output-->
+			<div class="row">
+				<div class="col-xs-12">
+					<div id="output-area"></div>
+				</div>
+			</div>
 		</section>
 		<section id="hide-link" class="container-fluid m-auto font">
 			<div class="d-xl-none d-lg-none d-md-none text-center">
