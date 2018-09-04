@@ -28,7 +28,7 @@ try {
 	 **/
 	$name = filter_input(INPUT_POST, "name", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
 	$email = filter_input(INPUT_POST, "email", FILTER_SANITIZE_EMAIL);
-	$phone = filter_input(INPUT_POST, "phone", FILTER_SANITIZE_NUMBER_INT);
+	$phone = filter_input(INPUT_POST, "phone", FILTER_SANITIZE_STRING);
 	$message = filter_input(INPUT_POST, "message", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
 
 	//create Swift message
