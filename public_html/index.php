@@ -118,8 +118,8 @@
 					<input type="email" class="form-control" id="emailControlInput" placeholder="name@example.com">
 				</div>
 				<div class="form-group">
-					<label for="numberControlInput">Phone Number</label>
-					<input type="number" class="form-control" id="numberControlInput" placeholder="555-555-5555">
+					<label for="subjectControlInput">Subject</label>
+					<input type="text" class="form-control" id="subjectControlInput" placeholder="555-555-5555">
 				</div>
 				<div class="form-group">
 					<label for="FormControlTextarea1">Example textarea</label>
