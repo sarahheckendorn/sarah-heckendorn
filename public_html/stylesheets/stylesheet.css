@@ -13,27 +13,25 @@
 	background-color: rgba(162, 170, 176, 0.8);
 	color: #3E3E3B;
 	float: left;
-	max-width: 47%;
-	margin-left: 5em;
-	margin-bottom: 2em;
 }
 
 #profile {
 	width: 175px;
 	height: 260px;
-	opacity: 1;
 	float: left;
+	opacity: 1;
+	margin-right: 5px;
 }
 
 #social {
 	background-color: rgba(162, 170, 176, 0.8);
 	color: #3E3E3B;
-	float: right;
 	max-width: 35%;
+	max-height: 23em;
 }
 
 #social a {
-	font-size: 2em;
+	/*font-size: 2rem;*/
 	color: #3E3E3B;
 }
 
@@ -49,6 +47,7 @@
 	width: 600px;
 	height: 400px;
 	margin-top: 2em;
+	margin-bottom: 2em;
 }
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
