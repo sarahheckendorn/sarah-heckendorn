@@ -11,7 +11,7 @@
 require_once (dirname(__DIR__, 2) . "/vendor/autoload.php");
 
 // require all composer dependencies
-require_once("mail-config.php");
+require_once ("mail-config.php");
 
 //verify user's reCAPTCHA input
 $recaptcha = new \ReCaptcha\ReCaptcha($secret);
@@ -24,7 +24,7 @@ try {
 	}
 
 	/**
-	 *Sanitize the inputs from the form: name, email, subject, and message. Using Jquery so implenting $_POST superglobal
+	 *Sanitize the inputs from the form: name, email, subject, and message. Using Jquery so implementing $_POST superglobal
 	 **/
 	$name = filter_input(INPUT_POST, "name", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
 	$email = filter_input(INPUT_POST, "email", FILTER_SANITIZE_EMAIL);
@@ -74,8 +74,8 @@ try {
 		throw(new RuntimeException("unable to send email"));
 	}
 
-	//report a successful send
-	echo "<div class=\"alert alert-success\" role=\"alert\"><Email successfully sent.</div>";
+	/*report a successful send*/
+	echo "<div class=\"alert alert-success\" role=\"alert\">Email successfully sent.</div>";
 } catch(Exception $exception) {
 	echo "<div class=\"alert alert-danger\" role=\"alert\"><strong>Oh snap!</strong> Unable to send email: " . $exception->getMessage() . "</div>";
 }

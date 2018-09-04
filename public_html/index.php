@@ -125,9 +125,7 @@
 					<label for="FormControlTextarea1">Example textarea</label>
 					<textarea class="form-control" id="FormControlTextarea1" rows="3"></textarea>
 				</div>
-				<div>
-					<div class="g-recaptcha" data-sitekey="6LcIZG0UAAAAANrDHKCeUg7zNRqnzgQxAEnk6TSd"></div>
-				</div>
+				<div class="g-recaptcha" data-sitekey="6LcIZG0UAAAAANrDHKCeUg7zNRqnzgQxAEnk6TSd"></div>
 				<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
 			</form>
 			<!--empty area for form error/success output-->
