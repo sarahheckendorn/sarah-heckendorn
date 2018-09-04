@@ -108,7 +108,7 @@
 		</div>
 	<!--		/**Contact Me Section-->
 		<section id="contact" class="container-fluid font py-4 m-auto">
-			<form id="form" class="container m-auto">
+			<form id="form" action="php/mailer.php" method="post" class="container m-auto">
 				<div class="form-group">
 					<label for="nameControlInput">Name</label>
 					<input type="text" class="form-control" id="nameControlInput" placeholder="John Doe">
