@@ -119,7 +119,7 @@
 				</div>
 				<div class="form-group">
 					<label for="subjectControlInput">Subject</label>
-					<input type="text" class="form-control" id="subjectControlInput" placeholder="555-555-5555">
+					<input type="text" class="form-control" id="subjectControlInput" placeholder="Asking about...">
 				</div>
 				<div class="form-group">
 					<label for="FormControlTextarea1">Example textarea</label>
