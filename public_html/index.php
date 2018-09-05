@@ -110,20 +110,20 @@
 		<section id="contact" class="container-fluid font py-4 m-auto">
 			<form id="form" action="php/mailer.php" method="post" class="container m-auto">
 				<div class="form-group">
-					<label for="nameControlInput">Name</label>
-					<input type="text" class="form-control" id="nameControlInput" placeholder="John Doe">
+					<label for="name">Name</label>
+					<input type="text" class="form-control" id="name" placeholder="John Doe">
 				</div>
 				<div class="form-group">
-					<label for="emailControlInput">Email address</label>
-					<input type="email" class="form-control" id="emailControlInput" placeholder="name@example.com">
+					<label for="email">Email address</label>
+					<input type="email" class="form-control" id="email" placeholder="name@example.com">
 				</div>
 				<div class="form-group">
-					<label for="subjectControlInput">Subject</label>
-					<input type="text" class="form-control" id="subjectControlInput" placeholder="Asking about...">
+					<label for="subject">Subject</label>
+					<input type="text" class="form-control" id="subject" placeholder="Asking about...">
 				</div>
 				<div class="form-group">
-					<label for="FormControlTextarea1">Example textarea</label>
-					<textarea class="form-control" id="FormControlTextarea1" rows="3"></textarea>
+					<label for="message">Example textarea</label>
+					<textarea class="form-control" id="message" rows="3"></textarea>
 				</div>
 				<div class="g-recaptcha" data-sitekey="6LcIZG0UAAAAANrDHKCeUg7zNRqnzgQxAEnk6TSd"></div>
 				<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>

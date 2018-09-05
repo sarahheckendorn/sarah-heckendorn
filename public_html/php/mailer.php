@@ -58,7 +58,7 @@ try {
 	$swiftMessage->addPart(html_entity_decode($message), "text/plain");
 
 	/**
-	 * Send the email via SMPT.
+	 * Send the email via SMTP.
 	 *
 	 * @see http://swiftmailer.org/docs/sending.html Sending Messages - Documentation - SwitftMailer
 	 **/
