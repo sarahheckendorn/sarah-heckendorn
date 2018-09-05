@@ -26,7 +26,7 @@ $(document).ready(function(){
 			},
 			message: {
 				required: true,
-				maxLength: 2000
+				maxlength: 2000
 			}
 		},
 
@@ -41,7 +41,7 @@ $(document).ready(function(){
 			},
 			message: {
 				required: "Please enter a message.",
-				maxLength: "2000 characters max."
+				maxlength: "2000 characters max."
 			}
 		},
 

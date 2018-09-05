@@ -9,10 +9,10 @@
 		<link rel="stylesheet" href="stylesheets/stylesheet.css">
 		<link href="https://fonts.googleapis.com/css?family=Montserrat|Dancing+Script|Raleway" rel="stylesheet">
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 		<script src='https://www.google.com/recaptcha/api.js'></script>
 		<script src="js/validator.js"></script>
 	</head>
@@ -111,19 +111,19 @@
 			<form id="form" action="php/mailer.php" method="post" class="container m-auto">
 				<div class="form-group">
 					<label for="name">Name</label>
-					<input type="text" class="form-control" id="name" placeholder="John Doe">
+					<input type="text" name="name" class="form-control" id="name" placeholder="John Doe">
 				</div>
 				<div class="form-group">
 					<label for="email">Email address</label>
-					<input type="email" class="form-control" id="email" placeholder="name@example.com">
+					<input type="email" name="email" class="form-control" id="email" placeholder="name@example.com">
 				</div>
 				<div class="form-group">
 					<label for="subject">Subject</label>
-					<input type="text" class="form-control" id="subject" placeholder="Asking about...">
+					<input type="text" name="subject" class="form-control" id="subject" placeholder="Asking about...">
 				</div>
 				<div class="form-group">
-					<label for="message">Example textarea</label>
-					<textarea class="form-control" id="message" rows="3"></textarea>
+					<label for="message">Message</label>
+					<textarea name="message" class="form-control" id="message" rows="3"></textarea>
 				</div>
 				<div class="g-recaptcha" data-sitekey="6LcIZG0UAAAAANrDHKCeUg7zNRqnzgQxAEnk6TSd"></div>
 				<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
