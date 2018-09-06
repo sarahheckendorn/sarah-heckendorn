@@ -81,20 +81,20 @@
 <!--				will update the carousel as I have items to add. Have commented out code for ease so that I can easily add items as they come.-->
 				<div class="carousel-inner">
 					<div class="carousel-item active">
-							<a href="https://bootcamp-coders.cnm.edu/~sheckendorn/bootstrap-challenge/" target="_blank">
-							<img class="d-block w-100" src="image/image%20(2).jpg" alt="Image for bootstrap challenge">
-							<div class="carousel-caption d-none d-md-block">
-								<h5>Bootstrap Challenge</h5>
-								<p>Used a simple layout to practice styling with bootstrap and css. Completed during Deep Diving Coding Fullstack Bootcamp.</p>
-							</div>
-							</a>
+						<img class="d-block w-100" src="image/lake.jpg" alt="Image coming soon for NM-Outdoors Project">
+						<div class="carousel-caption d-none d-md-block">
+							<h5>NM-Outdoors</h5>
+							<p>A collaborative project with teammates from DDC Bootcamp. Implementing mySQL for backend databases, PHP for structuring the database, Api's for pulling data from a government site, Angular for putting the pieces together, and finally, bootstrap and css for styling.</p>
+						</div>
 						</div>
 						<div class="carousel-item">
-							<img class="d-block w-100" src="image/lake.jpg" alt="Image coming soon for NM-Outdoors Project">
-							<div class="carousel-caption d-none d-md-block">
-								<h5>NM-Outdoors</h5>
-								<p>A collaborative project with teammates from DDC Bootcamp. Implementing mySQL for backend databases, PHP for structuring the database, Api's for pulling data from a government site, Angular for putting the pieces together, and finally, bootstrap and css for styling.</p>
-							</div>
+							<a href="https://bootcamp-coders.cnm.edu/~sheckendorn/bootstrap-challenge/" target="_blank">
+								<img class="d-block w-100" src="image/image%20(2).jpg" alt="Image for bootstrap challenge">
+								<div class="carousel-caption d-none d-md-block">
+									<h5>Bootstrap Challenge</h5>
+									<p>Used a simple layout to practice styling with bootstrap and css. Completed during Deep Diving Coding Fullstack Bootcamp.</p>
+								</div>
+							</a>
 						</div>
 <!--						<div class="carousel-item">-->
 <!--							<img class="d-block w-100" src="image/rustic-pictures.jpg?auto=yes&bg=555&fg=333" alt="Third slide">-->
