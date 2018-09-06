@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head id="background-image">
+		<title>Sarah Heckendorn</title>
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!--Styling sheets from font awesome and onsite-->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-		<link rel="stylesheet" href="stylesheets/stylesheet.css">
+		<link rel="stylesheet" href="stylesheets/stylesheet.css" type="text/css">
 		<link href="https://fonts.googleapis.com/css?family=Montserrat|Dancing+Script|Raleway" rel="stylesheet">
+		<!--Jquery and popper-->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src='https://www.google.com/recaptcha/api.js'></script>
+		<!--scripts for form-->
+		<script src="js/validator.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-		<script src='https://www.google.com/recaptcha/api.js'></script>
-		<script src="js/validator.js"></script>
 	</head>
 	<body class="background">
 	<!--	/**header section-->
@@ -76,26 +80,26 @@
 <!--				will update the carousel as I have items to add. Have commented out code for ease so that I can easily add items as they come.-->
 				<div class="carousel-inner">
 					<div class="carousel-item active">
-						<img class="d-block w-100" src="image/image%20(2).jpg" alt="First slide">
+						<img class="d-block w-100" src="image/image%20(2).jpg" alt="Image for bootstrap challenge">
 						<div class="carousel-caption d-none d-md-block">
 							<h5>Bootstrap Challenge</h5>
 							<p>Used a simple layout to practice styling with bootstrap and css. Completed during Deep Diving Coding Fullstack Bootcamp.</p>
 						</div>
 					</div>
-<!--					<div class="carousel-item">-->
-<!--						<img class="d-block w-100" src="image/pink%20adobe.jpg?auto=yes&bg=666&fg=444" alt="Second slide">-->
-<!--						<div class="carousel-caption d-none d-md-block">-->
-<!--							<h5>Lorum Ipsum</h5>-->
-<!--							<p>Description of slide and what work it was. Keep it brief but informative</p>-->
-<!--						</div>-->
-<!--					</div>-->
-<!--					<div class="carousel-item">-->
-<!--						<img class="d-block w-100" src="image/rustic-pictures.jpg?auto=yes&bg=555&fg=333" alt="Third slide">-->
-<!--						<div class="carousel-caption d-none d-md-block">-->
-<!--<!--							<h5>Lorum Ipsum</h5>-->-->
-<!--<!--							<p>Description of slide and what work it was. Keep it brief but informative</p>-->-->
-<!--						</div>-->
-<!--					</div>-->
+					<div class="carousel-item">
+						<img class="d-block w-100" src="image/lake.jpg" alt="Image coming soon for NM-Outdoors Project">
+						<div class="carousel-caption d-none d-md-block">
+							<h5>NM-Outdoors</h5>
+							<p>A collaborative project with teammates from DDC Bootcamp. Implementing mySQL for backend databases, PHP for structuring the database, Api's for pulling data from a government site, Angular for putting the pieces together, and finally, bootstrap and css for styling.</p>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<img class="d-block w-100" src="image/rustic-pictures.jpg?auto=yes&bg=555&fg=333" alt="Third slide">
+						<div class="carousel-caption d-none d-md-block">
+							<h5>Lorum Ipsum</h5>
+							<p>Description of slide and what work it was. Keep it brief but informative</p>
+						</div>
+					</div>
 				</div>
 				<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
 					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -139,9 +143,9 @@
 		<section id="hide-link" class="container-fluid m-auto font">
 			<div class="d-xl-none d-lg-none d-md-none text-center">
 				<h2>Easy Links:</h2>
-				<a href="https://github.com/sarahheckendorn"><i id="tiny" class="fab fa-github px-2 py-4"></i></a>
-				<a href="https://www.linkedin.com/in/sarah-heckendorn-0721/"><i id="tiny" class="fab fa-linkedin px-2"></i></a>
-				<a href="https://twitter.com/HeckendornSarah"><i id="tiny" class="fab fa-twitter-square px-2"></i></a>
+				<a href="https://github.com/sarahheckendorn"><i class="tiny fab fa-github px-2 py-4"></i></a>
+				<a href="https://www.linkedin.com/in/sarah-heckendorn-0721/"><i class="tiny fab fa-linkedin px-2"></i></a>
+				<a href="https://twitter.com/HeckendornSarah"><i class="tiny fab fa-twitter-square px-2"></i></a>
 			</div>
 		</section>
 	</body>
