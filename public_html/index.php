@@ -73,28 +73,29 @@
 					<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
 					<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
 				</ol>
+<!--				will update the carousel as I have items to add. Have commented out code for ease so that I can easily add items as they come.-->
 				<div class="carousel-inner">
 					<div class="carousel-item active">
 						<img class="d-block w-100" src="image/adobe.jpg?auto=yes&bg=777&fg=555" alt="First slide">
 						<div class="carousel-caption d-none d-md-block">
-							<h5>Lorum Ipsum</h5>
-							<p>Description of slide and what work it was. Keep it brief but informative</p>
+							<h5>Projects coming soon!</h5>
+<!--							<p>Description of slide and what work it was. Keep it brief but informative</p>-->
 						</div>
 					</div>
-					<div class="carousel-item">
-						<img class="d-block w-100" src="image/pink%20adobe.jpg?auto=yes&bg=666&fg=444" alt="Second slide">
-						<div class="carousel-caption d-none d-md-block">
-							<h5>Lorum Ipsum</h5>
-							<p>Description of slide and what work it was. Keep it brief but informative</p>
-						</div>
-					</div>
-					<div class="carousel-item">
-						<img class="d-block w-100" src="image/rustic-pictures.jpg?auto=yes&bg=555&fg=333" alt="Third slide">
-						<div class="carousel-caption d-none d-md-block">
-							<h5>Lorum Ipsum</h5>
-							<p>Description of slide and what work it was. Keep it brief but informative</p>
-						</div>
-					</div>
+<!--					<div class="carousel-item">-->
+<!--						<img class="d-block w-100" src="image/pink%20adobe.jpg?auto=yes&bg=666&fg=444" alt="Second slide">-->
+<!--						<div class="carousel-caption d-none d-md-block">-->
+<!--							<h5>Lorum Ipsum</h5>-->
+<!--							<p>Description of slide and what work it was. Keep it brief but informative</p>-->
+<!--						</div>-->
+<!--					</div>-->
+<!--					<div class="carousel-item">-->
+<!--						<img class="d-block w-100" src="image/rustic-pictures.jpg?auto=yes&bg=555&fg=333" alt="Third slide">-->
+<!--						<div class="carousel-caption d-none d-md-block">-->
+<!--<!--							<h5>Lorum Ipsum</h5>-->-->
+<!--<!--							<p>Description of slide and what work it was. Keep it brief but informative</p>-->-->
+<!--						</div>-->
+<!--					</div>-->
 				</div>
 				<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
 					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
