@@ -81,7 +81,7 @@
 <!--				will update the carousel as I have items to add. Have commented out code for ease so that I can easily add items as they come.-->
 				<div class="carousel-inner">
 					<div class="carousel-item active">
-							<a href="" target="_blank">
+							<a href="https://bootcamp-coders.cnm.edu/~sheckendorn/bootstrap-challenge/" target="_blank">
 							<img class="d-block w-100" src="image/image%20(2).jpg" alt="Image for bootstrap challenge">
 							<div class="carousel-caption d-none d-md-block">
 								<h5>Bootstrap Challenge</h5>
@@ -96,13 +96,13 @@
 								<p>A collaborative project with teammates from DDC Bootcamp. Implementing mySQL for backend databases, PHP for structuring the database, Api's for pulling data from a government site, Angular for putting the pieces together, and finally, bootstrap and css for styling.</p>
 							</div>
 						</div>
-						<div class="carousel-item">
-							<img class="d-block w-100" src="image/rustic-pictures.jpg?auto=yes&bg=555&fg=333" alt="Third slide">
-							<div class="carousel-caption d-none d-md-block">
-								<h5>Lorum Ipsum</h5>
-								<p>Description of slide and what work it was. Keep it brief but informative</p>
-							</div>
-						</div>
+<!--						<div class="carousel-item">-->
+<!--							<img class="d-block w-100" src="image/rustic-pictures.jpg?auto=yes&bg=555&fg=333" alt="Third slide">-->
+<!--							<div class="carousel-caption d-none d-md-block">-->
+<!--								<h5>Lorum Ipsum</h5>-->
+<!--								<p>Description of slide and what work it was. Keep it brief but informative</p>-->
+<!--							</div>-->
+<!--						</div>-->
 					<a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
 						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
 						<span class="sr-only">Previous</span>
