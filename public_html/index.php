@@ -76,10 +76,10 @@
 <!--				will update the carousel as I have items to add. Have commented out code for ease so that I can easily add items as they come.-->
 				<div class="carousel-inner">
 					<div class="carousel-item active">
-						<img class="d-block w-100" src="image/adobe.jpg?auto=yes&bg=777&fg=555" alt="First slide">
+						<img class="d-block w-100" src="image/image%20(2).jpg" alt="First slide">
 						<div class="carousel-caption d-none d-md-block">
-							<h5>Projects coming soon!</h5>
-<!--							<p>Description of slide and what work it was. Keep it brief but informative</p>-->
+							<h5>Bootstrap Challenge</h5>
+							<p>Used a simple layout to practice styling with bootstrap and css. Completed during Deep Diving Coding Fullstack Bootcamp.</p>
 						</div>
 					</div>
 <!--					<div class="carousel-item">-->
