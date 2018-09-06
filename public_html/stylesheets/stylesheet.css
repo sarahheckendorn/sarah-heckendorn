@@ -49,7 +49,10 @@
 	margin-top: 2em;
 	margin-bottom: 2em;
 }
-
+.carousel-caption {
+	background-color: rgba(203, 197, 193, 0.9);
+	color: black;
+}
 .carousel-control-prev-icon, .carousel-control-next-icon {
 	background-color: black;
 	margin-top: 2em;
